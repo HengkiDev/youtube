@@ -2,6 +2,10 @@
   "version": 2,
   "routes": [
     {
+      "src": "/api/download",
+      "dest": "/api/download.js"
+    },
+    {
       "src": "/api/youtube",
       "dest": "/api/youtube.js"
     }
